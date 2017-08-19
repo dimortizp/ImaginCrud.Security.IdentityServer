@@ -1,0 +1,9 @@
+E:\Emprendimiento\ImaginCrud.Security.IdentityServer\Test\bin\Debug\netcoreapp1.1\Test.deps.json
+E:\Emprendimiento\ImaginCrud.Security.IdentityServer\Test\bin\Debug\netcoreapp1.1\Test.runtimeconfig.json
+E:\Emprendimiento\ImaginCrud.Security.IdentityServer\Test\bin\Debug\netcoreapp1.1\Test.runtimeconfig.dev.json
+E:\Emprendimiento\ImaginCrud.Security.IdentityServer\Test\bin\Debug\netcoreapp1.1\Test.dll
+E:\Emprendimiento\ImaginCrud.Security.IdentityServer\Test\obj\Debug\netcoreapp1.1\Test.AssemblyInfo.cs
+E:\Emprendimiento\ImaginCrud.Security.IdentityServer\Test\obj\Debug\netcoreapp1.1\Test.csprojResolveAssemblyReference.cache
+E:\Emprendimiento\ImaginCrud.Security.IdentityServer\Test\bin\Debug\netcoreapp1.1\Test.pdb
+E:\Emprendimiento\ImaginCrud.Security.IdentityServer\Test\obj\Debug\netcoreapp1.1\Test.dll
+E:\Emprendimiento\ImaginCrud.Security.IdentityServer\Test\obj\Debug\netcoreapp1.1\Test.pdb
