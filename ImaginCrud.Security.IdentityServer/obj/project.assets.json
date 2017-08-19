@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 2,
   "targets": {
     ".NETCoreApp,Version=v1.1": {
       "AutoMapper/6.0.1": {
@@ -10559,53 +10559,38 @@
       "projectUniqueName": "E:\\Emprendimiento\\ImaginCrud.Security.IdentityServer\\ImaginCrud.Security.IdentityServer\\ImaginCrud.Security.IdentityServer.csproj",
       "projectName": "ImaginCrud.Security.IdentityServer",
       "projectPath": "E:\\Emprendimiento\\ImaginCrud.Security.IdentityServer\\ImaginCrud.Security.IdentityServer\\ImaginCrud.Security.IdentityServer.csproj",
-      "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
       "outputPath": "E:\\Emprendimiento\\ImaginCrud.Security.IdentityServer\\ImaginCrud.Security.IdentityServer\\obj\\",
       "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-      ],
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
-      "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\Diego\\.dotnet\\NuGetFallbackFolder": {},
-        "https://api.nuget.org/v3/index.json": {}
-      },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
         }
-      },
-      "warningProperties": {
-        "warnAsError": [
-          "NU1605"
-        ]
       }
     },
     "frameworks": {
       "netcoreapp1.1": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
+          "Microsoft.AspNetCore": {
             "target": "Package",
-            "version": "1.1.2",
-            "autoReferenced": true
+            "version": "1.1.2"
           },
-          "IdentityServer4": {
+          "Microsoft.EntityFrameworkCore.Tools": {
             "target": "Package",
-            "version": "1.5.2"
+            "version": "1.1.1"
           },
           "IdentityServer4.EntityFramework": {
             "target": "Package",
             "version": "1.0.1"
           },
-          "Microsoft.ApplicationInsights.AspNetCore": {
+          "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "1.1.2",
+            "autoReferenced": true
           },
-          "Microsoft.AspNetCore": {
+          "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "1.1.2"
           },
@@ -10613,17 +10598,17 @@
             "target": "Package",
             "version": "1.1.0"
           },
+          "Microsoft.ApplicationInsights.AspNetCore": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
           "Microsoft.AspNetCore.StaticFiles": {
             "target": "Package",
             "version": "1.1.0"
           },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
+          "IdentityServer4": {
             "target": "Package",
-            "version": "1.1.2"
-          },
-          "Microsoft.EntityFrameworkCore.Tools": {
-            "target": "Package",
-            "version": "1.1.1"
+            "version": "1.5.2"
           }
         }
       }
