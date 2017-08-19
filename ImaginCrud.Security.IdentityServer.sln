@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImaginCrud.Security.Identit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImaginCrud.Security.IdentityServer", "ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.csproj", "{7F8F6615-5E06-4650-9553-27D53D274B50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImaginCrud.Security.IdentityServer.MVC", "ImaginCrud.Security.IdentityServer.MVC\ImaginCrud.Security.IdentityServer.MVC.csproj", "{C82472E3-88E4-4DA6-9502-8467EE4C5FE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7F8F6615-5E06-4650-9553-27D53D274B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F8F6615-5E06-4650-9553-27D53D274B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F8F6615-5E06-4650-9553-27D53D274B50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C82472E3-88E4-4DA6-9502-8467EE4C5FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C82472E3-88E4-4DA6-9502-8467EE4C5FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C82472E3-88E4-4DA6-9502-8467EE4C5FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C82472E3-88E4-4DA6-9502-8467EE4C5FE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
