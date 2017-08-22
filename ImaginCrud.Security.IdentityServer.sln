@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{BCC2BD0C-81A8-4BB5-9CD5-C44929FFAEA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{BCC2BD0C-81A8-4BB5-9CD5-C44929FFAEA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImaginCrud.Security.IdentityServer.Api", "ImaginCrud.Security.IdentityServer.Api\ImaginCrud.Security.IdentityServer.Api.csproj", "{C144C1E3-04CF-4347-9000-F035E0AE3152}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImaginCrud.Security.IdentityServer.Api", "ImaginCrud.Security.IdentityServer.Api\ImaginCrud.Security.IdentityServer.Api.csproj", "{C144C1E3-04CF-4347-9000-F035E0AE3152}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImaginCrud.Security.IdentityServer", "ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.csproj", "{7F8F6615-5E06-4650-9553-27D53D274B50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImaginCrud.Security.IdentityServer", "ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.csproj", "{7F8F6615-5E06-4650-9553-27D53D274B50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImaginCrud.Security.IdentityServer.MVC", "ImaginCrud.Security.IdentityServer.MVC\ImaginCrud.Security.IdentityServer.MVC.csproj", "{C82472E3-88E4-4DA6-9502-8467EE4C5FE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImaginCrud.Security.IdentityServer.MVC", "ImaginCrud.Security.IdentityServer.MVC\ImaginCrud.Security.IdentityServer.MVC.csproj", "{C82472E3-88E4-4DA6-9502-8467EE4C5FE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

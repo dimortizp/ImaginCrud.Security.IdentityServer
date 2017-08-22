@@ -1,0 +1,32 @@
+﻿@model LoginViewModel
+
+<div class="login-page">
+    <div class="page-header">
+        <h1>Register</h1>
+    </div>
+
+    <div asp-validation-summary="All"></div>
+
+    <div class="row">
+
+        <form method="POST">
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" />
+            </div>
+
+            <div>
+                <label>Password</label>
+                <input type="password" name="password" />
+            </div>
+
+            <div>
+                <label>Retype password</label>
+                <input type="password" name="repassword" />
+            </div>
+
+            <input type="submit" />
+        </form>
+
+    </div>
+</div>
