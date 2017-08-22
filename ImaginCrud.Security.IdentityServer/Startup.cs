@@ -14,24 +14,34 @@ using IdentityServer4.EntityFramework.Mappers;
 using IdentityServer4.EntityFramework.DbContexts;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using ImaginCrud.Security.IdentityServer.Contexts;
+using Microsoft.Extensions.Configuration;
 
 namespace ImaginCrud.Security.IdentityServer
 {
     public class Startup
     {
+        public IConfigurationRoot Configuration { get; }
+
+        public Startup(IHostingEnvironment env)
+        {
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(env.ContentRootPath)
+                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
+                .AddEnvironmentVariables();
+            Configuration = builder.Build();
+        }
+
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
 
-            //var connectionString = @"server=.\sqlexpress;database=imagincrud.authorization;user id=imagincrudusr;password=jCt};H]Xd6?f9^LB4";
-            var connectionString = @"server=.\sqlexpress;database=imagincrud.authorization;trusted_connection=yes";
-            var connectionStringLogin = @"server=.\sqlexpress;database=imagincrud.login;trusted_connection=yes";
             var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
 
             services.AddDbContext<ApplicationIdentityDbContext>(builder =>
-                    builder.UseSqlServer(connectionStringLogin, options =>
+                    builder.UseSqlServer(Configuration.GetConnectionString("AspIdentityConnection"), options =>
                         options.MigrationsAssembly(migrationsAssembly)));
             services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationIdentityDbContext>()
@@ -40,10 +50,10 @@ namespace ImaginCrud.Security.IdentityServer
             services.AddIdentityServer()
                 .AddTemporarySigningCredential()
                 .AddConfigurationStore(builder =>
-                    builder.UseSqlServer(connectionString, options =>
+                    builder.UseSqlServer(Configuration.GetConnectionString("IdentityServerConnection"), options =>
                         options.MigrationsAssembly(migrationsAssembly)))
                 .AddOperationalStore(builder =>
-                    builder.UseSqlServer(connectionString, options =>
+                    builder.UseSqlServer(Configuration.GetConnectionString("IdentityServerConnection"), options =>
                         options.MigrationsAssembly(migrationsAssembly)));
         }
 
