@@ -12,6 +12,8 @@ using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 using IdentityServer4.EntityFramework.Mappers;
 using IdentityServer4.EntityFramework.DbContexts;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using ImaginCrud.Security.IdentityServer.Contexts;
 
 namespace ImaginCrud.Security.IdentityServer
 {
@@ -25,12 +27,18 @@ namespace ImaginCrud.Security.IdentityServer
 
             //var connectionString = @"server=.\sqlexpress;database=imagincrud.authorization;user id=imagincrudusr;password=jCt};H]Xd6?f9^LB4";
             var connectionString = @"server=.\sqlexpress;database=imagincrud.authorization;trusted_connection=yes";
+            var connectionStringLogin = @"server=.\sqlexpress;database=imagincrud.login;trusted_connection=yes";
             var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
 
+            services.AddDbContext<ApplicationIdentityDbContext>(builder =>
+                    builder.UseSqlServer(connectionStringLogin, options =>
+                        options.MigrationsAssembly(migrationsAssembly)));
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationIdentityDbContext>()
+                .AddDefaultTokenProviders();
             // configure identity server with in-memory users, but EF stores for clients and resources
             services.AddIdentityServer()
                 .AddTemporarySigningCredential()
-                .AddTestUsers(Config.GetUsers())
                 .AddConfigurationStore(builder =>
                     builder.UseSqlServer(connectionString, options =>
                         options.MigrationsAssembly(migrationsAssembly)))
@@ -46,6 +54,7 @@ namespace ImaginCrud.Security.IdentityServer
             loggerFactory.AddConsole();
             app.UseDeveloperExceptionPage();
 
+            app.UseIdentity();
             app.UseIdentityServer();
 
             app.UseStaticFiles();
@@ -57,6 +66,7 @@ namespace ImaginCrud.Security.IdentityServer
             using (var serviceScope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
             {
                 serviceScope.ServiceProvider.GetRequiredService<PersistedGrantDbContext>().Database.Migrate();
+                serviceScope.ServiceProvider.GetRequiredService<ApplicationIdentityDbContext>().Database.Migrate();
 
                 var context = serviceScope.ServiceProvider.GetRequiredService<ConfigurationDbContext>();
                 context.Database.Migrate();
