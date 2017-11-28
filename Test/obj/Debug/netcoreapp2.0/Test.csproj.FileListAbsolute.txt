@@ -1,0 +1,11 @@
+E:\PYS\ImaginCrud.Security.IdentityServer\Test\bin\Debug\netcoreapp2.0\Test.deps.json
+E:\PYS\ImaginCrud.Security.IdentityServer\Test\bin\Debug\netcoreapp2.0\Test.runtimeconfig.json
+E:\PYS\ImaginCrud.Security.IdentityServer\Test\bin\Debug\netcoreapp2.0\Test.runtimeconfig.dev.json
+E:\PYS\ImaginCrud.Security.IdentityServer\Test\bin\Debug\netcoreapp2.0\Test.dll
+E:\PYS\ImaginCrud.Security.IdentityServer\Test\bin\Debug\netcoreapp2.0\Test.pdb
+E:\PYS\ImaginCrud.Security.IdentityServer\Test\obj\Debug\netcoreapp2.0\Test.csprojResolveAssemblyReference.cache
+E:\PYS\ImaginCrud.Security.IdentityServer\Test\obj\Debug\netcoreapp2.0\Test.csproj.CoreCompileInputs.cache
+E:\PYS\ImaginCrud.Security.IdentityServer\Test\obj\Debug\netcoreapp2.0\Test.AssemblyInfoInputs.cache
+E:\PYS\ImaginCrud.Security.IdentityServer\Test\obj\Debug\netcoreapp2.0\Test.AssemblyInfo.cs
+E:\PYS\ImaginCrud.Security.IdentityServer\Test\obj\Debug\netcoreapp2.0\Test.dll
+E:\PYS\ImaginCrud.Security.IdentityServer\Test\obj\Debug\netcoreapp2.0\Test.pdb

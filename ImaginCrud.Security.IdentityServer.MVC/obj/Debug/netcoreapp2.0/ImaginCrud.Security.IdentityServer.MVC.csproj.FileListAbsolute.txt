@@ -1,0 +1,11 @@
+E:\PYS\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.MVC\bin\Debug\netcoreapp2.0\ImaginCrud.Security.IdentityServer.MVC.deps.json
+E:\PYS\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.MVC\bin\Debug\netcoreapp2.0\ImaginCrud.Security.IdentityServer.MVC.runtimeconfig.json
+E:\PYS\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.MVC\bin\Debug\netcoreapp2.0\ImaginCrud.Security.IdentityServer.MVC.runtimeconfig.dev.json
+E:\PYS\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.MVC\bin\Debug\netcoreapp2.0\ImaginCrud.Security.IdentityServer.MVC.dll
+E:\PYS\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.MVC\bin\Debug\netcoreapp2.0\ImaginCrud.Security.IdentityServer.MVC.pdb
+E:\PYS\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.MVC\obj\Debug\netcoreapp2.0\ImaginCrud.Security.IdentityServer.MVC.csprojResolveAssemblyReference.cache
+E:\PYS\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.MVC\obj\Debug\netcoreapp2.0\ImaginCrud.Security.IdentityServer.MVC.csproj.CoreCompileInputs.cache
+E:\PYS\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.MVC\obj\Debug\netcoreapp2.0\ImaginCrud.Security.IdentityServer.MVC.AssemblyInfoInputs.cache
+E:\PYS\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.MVC\obj\Debug\netcoreapp2.0\ImaginCrud.Security.IdentityServer.MVC.AssemblyInfo.cs
+E:\PYS\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.MVC\obj\Debug\netcoreapp2.0\ImaginCrud.Security.IdentityServer.MVC.dll
+E:\PYS\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.MVC\obj\Debug\netcoreapp2.0\ImaginCrud.Security.IdentityServer.MVC.pdb

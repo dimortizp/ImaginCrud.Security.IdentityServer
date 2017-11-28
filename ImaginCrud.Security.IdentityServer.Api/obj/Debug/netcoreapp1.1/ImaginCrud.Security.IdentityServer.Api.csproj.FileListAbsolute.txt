@@ -7,3 +7,14 @@ E:\Emprendimiento\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.Identit
 E:\Emprendimiento\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.Api\obj\Debug\netcoreapp1.1\ImaginCrud.Security.IdentityServer.Api.dll
 E:\Emprendimiento\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.Api\obj\Debug\netcoreapp1.1\ImaginCrud.Security.IdentityServer.Api.pdb
 E:\Emprendimiento\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.Api\obj\Debug\netcoreapp1.1\ImaginCrud.Security.IdentityServer.Api.csprojResolveAssemblyReference.cache
+E:\PYS\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.Api\bin\Debug\netcoreapp1.1\ImaginCrud.Security.IdentityServer.Api.deps.json
+E:\PYS\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.Api\bin\Debug\netcoreapp1.1\ImaginCrud.Security.IdentityServer.Api.runtimeconfig.json
+E:\PYS\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.Api\bin\Debug\netcoreapp1.1\ImaginCrud.Security.IdentityServer.Api.runtimeconfig.dev.json
+E:\PYS\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.Api\bin\Debug\netcoreapp1.1\ImaginCrud.Security.IdentityServer.Api.dll
+E:\PYS\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.Api\bin\Debug\netcoreapp1.1\ImaginCrud.Security.IdentityServer.Api.pdb
+E:\PYS\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.Api\obj\Debug\netcoreapp1.1\ImaginCrud.Security.IdentityServer.Api.csprojResolveAssemblyReference.cache
+E:\PYS\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.Api\obj\Debug\netcoreapp1.1\ImaginCrud.Security.IdentityServer.Api.csproj.CoreCompileInputs.cache
+E:\PYS\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.Api\obj\Debug\netcoreapp1.1\ImaginCrud.Security.IdentityServer.Api.AssemblyInfoInputs.cache
+E:\PYS\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.Api\obj\Debug\netcoreapp1.1\ImaginCrud.Security.IdentityServer.Api.AssemblyInfo.cs
+E:\PYS\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.Api\obj\Debug\netcoreapp1.1\ImaginCrud.Security.IdentityServer.Api.dll
+E:\PYS\ImaginCrud.Security.IdentityServer\ImaginCrud.Security.IdentityServer.Api\obj\Debug\netcoreapp1.1\ImaginCrud.Security.IdentityServer.Api.pdb

@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v1.1": {
-      "test/1.0.0": {
+      "Test/1.0.0": {
         "dependencies": {
           "IdentityModel": "2.10.0"
         },
@@ -14,7 +14,7 @@
           "Test.dll": {}
         }
       },
-      "identitymodel/2.10.0": {
+      "IdentityModel/2.10.0": {
         "dependencies": {
           "Newtonsoft.Json": "9.0.1",
           "System.ValueTuple": "4.3.1"
@@ -23,7 +23,7 @@
           "lib/netstandard1.4/IdentityModel.dll": {}
         }
       },
-      "newtonsoft.json/9.0.1": {
+      "Newtonsoft.Json/9.0.1": {
         "dependencies": {
           "System.Runtime.Serialization.Primitives": "4.1.1"
         },
@@ -31,12 +31,12 @@
           "lib/netstandard1.0/Newtonsoft.Json.dll": {}
         }
       },
-      "system.runtime.serialization.primitives/4.1.1": {
+      "System.Runtime.Serialization.Primitives/4.1.1": {
         "runtime": {
           "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
         }
       },
-      "system.valuetuple/4.3.1": {
+      "System.ValueTuple/4.3.1": {
         "runtime": {
           "lib/netstandard1.0/System.ValueTuple.dll": {}
         }
@@ -44,33 +44,33 @@
     }
   },
   "libraries": {
-    "test/1.0.0": {
+    "Test/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "identitymodel/2.10.0": {
+    "IdentityModel/2.10.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-J+VroKaxCcA2y4RRBOcbSkD4bpSCJIrSTF/QzwIRJ+dr7mRLker8xZeWbF/sSgKlkz9Bem2YHaIy9cIbYVIYEw==",
       "path": "identitymodel/2.10.0",
       "hashPath": "identitymodel.2.10.0.nupkg.sha512"
     },
-    "newtonsoft.json/9.0.1": {
+    "Newtonsoft.Json/9.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-NQzUt2Izgg5s8da5hpp8E/1NcwIGUGFpyPTMaHJQZbueT8PxDhf1GKgtfo+pMEhHUG3mOSp6Y2z0U+w6b/nF6Q==",
+      "sha512": "sha512-jB/DQYSLZyQRyh74QY+wl3b5Iw8oIcd+FfpjcHEFX3a/X9UKWBWMUGveAT+au0e8Ty0rval03Wc3SOYwY0UpBQ==",
       "path": "newtonsoft.json/9.0.1",
       "hashPath": "newtonsoft.json.9.0.1.nupkg.sha512"
     },
-    "system.runtime.serialization.primitives/4.1.1": {
+    "System.Runtime.Serialization.Primitives/4.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ffS5/bMUOwdEe/hjL6z55RbzkPDeDrunXelKUTII1c8g+7AX528hRsCyf2EJFXfDzdshiYW6id3dKa9WVlq+wQ==",
+      "sha512": "sha512-HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg==",
       "path": "system.runtime.serialization.primitives/4.1.1",
       "hashPath": "system.runtime.serialization.primitives.4.1.1.nupkg.sha512"
     },
-    "system.valuetuple/4.3.1": {
+    "System.ValueTuple/4.3.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-xzDmg26Wb2x2rFDjwziaMYQJqxhrK+b4OUC008o7CnZhUMb2p5XfwgOgAQ/WlKhqxMUSDWRUm5/lNTKdh27pJA==",
