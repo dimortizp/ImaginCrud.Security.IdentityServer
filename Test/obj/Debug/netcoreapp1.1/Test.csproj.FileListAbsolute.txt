@@ -7,14 +7,3 @@ E:\Emprendimiento\ImaginCrud.Security.IdentityServer\Test\obj\Debug\netcoreapp1.
 E:\Emprendimiento\ImaginCrud.Security.IdentityServer\Test\bin\Debug\netcoreapp1.1\Test.pdb
 E:\Emprendimiento\ImaginCrud.Security.IdentityServer\Test\obj\Debug\netcoreapp1.1\Test.dll
 E:\Emprendimiento\ImaginCrud.Security.IdentityServer\Test\obj\Debug\netcoreapp1.1\Test.pdb
-E:\PYS\ImaginCrud.Security.IdentityServer\Test\bin\Debug\netcoreapp1.1\Test.deps.json
-E:\PYS\ImaginCrud.Security.IdentityServer\Test\bin\Debug\netcoreapp1.1\Test.runtimeconfig.json
-E:\PYS\ImaginCrud.Security.IdentityServer\Test\bin\Debug\netcoreapp1.1\Test.runtimeconfig.dev.json
-E:\PYS\ImaginCrud.Security.IdentityServer\Test\bin\Debug\netcoreapp1.1\Test.dll
-E:\PYS\ImaginCrud.Security.IdentityServer\Test\bin\Debug\netcoreapp1.1\Test.pdb
-E:\PYS\ImaginCrud.Security.IdentityServer\Test\obj\Debug\netcoreapp1.1\Test.csprojResolveAssemblyReference.cache
-E:\PYS\ImaginCrud.Security.IdentityServer\Test\obj\Debug\netcoreapp1.1\Test.csproj.CoreCompileInputs.cache
-E:\PYS\ImaginCrud.Security.IdentityServer\Test\obj\Debug\netcoreapp1.1\Test.AssemblyInfoInputs.cache
-E:\PYS\ImaginCrud.Security.IdentityServer\Test\obj\Debug\netcoreapp1.1\Test.AssemblyInfo.cs
-E:\PYS\ImaginCrud.Security.IdentityServer\Test\obj\Debug\netcoreapp1.1\Test.dll
-E:\PYS\ImaginCrud.Security.IdentityServer\Test\obj\Debug\netcoreapp1.1\Test.pdb
